@@ -1,2 +1,2 @@
-# Wizylance Nestjs Backend Tempalte
+# Wizylance Nestjs Backend Template
 

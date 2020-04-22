@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es6",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./src",
+    "incremental": true,
+    "paths": {
+      "@bn-schema/*": [
+        "./database/schema/*"
+      ],
+      "@bn-enum/*": [
+        "./shared/enums/*"
+      ],
+      "@bn-validator/*": [
+        "./shared/validators/*"
+      ],
+      "@bn-decorator/*": [
+        "./shared/decorators/*"
+      ],
+      "@bn-interceptor/*": [
+        "./shared/interceptors/*"
+      ],
+      "@bn-pipe/*": [
+        "./shared/pipes/*"
+      ],
+      "@bn-guard/*": [
+        "./shared/guards/*"
+      ],
+      "@bn-extension/*": [
+        "./shared/extensions/*"
+      ],
+      "@bn-database/*": [
+        "./database/*"
+      ]
+    }
+  },
+  "exclude": ["node_modules"]
+}

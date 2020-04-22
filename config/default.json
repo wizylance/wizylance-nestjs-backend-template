@@ -1,0 +1,15 @@
+{
+  "Database": {
+    "dbConfig": {
+      "uri": "mongodb://localhost:27017/bn"
+    }
+  },
+  "Secret": {
+    "jwtKey": "secretKey"
+  },
+  "Application": {
+    "port": 3003,
+    "tokenExpired": 3600,
+    "version": "v1"
+  }
+}

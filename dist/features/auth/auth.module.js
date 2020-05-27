@@ -15,7 +15,7 @@ const auth_controller_1 = require("./auth.controller");
 const jwt_strategy_1 = require("./jwt.strategy");
 const app_config_1 = require("../../app.config");
 const shared_module_1 = require("../../shared/shared.module");
-const database_module_1 = require("@bn-database/database.module");
+const database_module_1 = require("../../database/database.module");
 let AuthModule = (() => {
     let AuthModule = class AuthModule {
     };

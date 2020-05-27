@@ -27,7 +27,7 @@ const passport_1 = require("@nestjs/passport");
 const swagger_1 = require("@nestjs/swagger");
 const auth_service_1 = require("./auth.service");
 const dto_1 = require("./dto");
-const user_decorator_1 = require("@bn-decorator/user.decorator");
+const user_decorator_1 = require("../../shared/decorators/user.decorator");
 let AuthController = (() => {
     let AuthController = class AuthController {
         constructor(authService) {

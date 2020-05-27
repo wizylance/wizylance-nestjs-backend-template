@@ -26,7 +26,7 @@ const common_1 = require("@nestjs/common");
 const jwt_1 = require("@nestjs/jwt");
 const mongoose_1 = require("mongoose");
 const app_config_1 = require("../../app.config");
-const database_constant_1 = require("@bn-database/database.constant");
+const database_constant_1 = require("../../database/database.constant");
 let AuthService = (() => {
     var _a;
     let AuthService = class AuthService {

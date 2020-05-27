@@ -25,7 +25,7 @@ exports.IsEmailAlreadyExist = exports.IsEmailAlreadyExistConstraint = void 0;
 const class_validator_1 = require("class-validator");
 const common_1 = require("@nestjs/common");
 const mongoose_1 = require("mongoose");
-const database_constant_1 = require("@bn-database/database.constant");
+const database_constant_1 = require("../../database/database.constant");
 let IsEmailAlreadyExistConstraint = (() => {
     var _a;
     let IsEmailAlreadyExistConstraint = class IsEmailAlreadyExistConstraint {

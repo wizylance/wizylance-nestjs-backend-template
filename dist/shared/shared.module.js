@@ -8,8 +8,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.SharedModule = void 0;
 const common_1 = require("@nestjs/common");
-const is_email_already_exist_validator_1 = require("@bn-validator/is-email-already-exist.validator");
-const database_module_1 = require("@bn-database/database.module");
+const is_email_already_exist_validator_1 = require("./validators/is-email-already-exist.validator");
+const database_module_1 = require("../database/database.module");
 let SharedModule = (() => {
     let SharedModule = class SharedModule {
     };

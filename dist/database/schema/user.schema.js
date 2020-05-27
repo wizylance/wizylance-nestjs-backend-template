@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.UserSchema = void 0;
 const mongoose_1 = require("mongoose");
 const bcrypt = require("bcrypt");
-const user_role_enum_1 = require("@bn-enum/user-role.enum");
+const user_role_enum_1 = require("../../shared/enums/user-role.enum");
 exports.UserSchema = new mongoose_1.Schema({
     email: {
         type: String,

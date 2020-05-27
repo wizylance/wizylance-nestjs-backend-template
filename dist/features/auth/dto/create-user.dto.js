@@ -12,7 +12,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.CreateUserDto = void 0;
 const swagger_1 = require("@nestjs/swagger");
 const class_validator_1 = require("class-validator");
-const is_email_already_exist_validator_1 = require("@bn-validator/is-email-already-exist.validator");
+const is_email_already_exist_validator_1 = require("../../../shared/validators/is-email-already-exist.validator");
 let CreateUserDto = (() => {
     class CreateUserDto {
     }
